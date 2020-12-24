@@ -1,0 +1,15 @@
+    .aside{
+        position: relative;
+    }
+    .asides{
+         position: absolute;
+         bottom: 100px;
+            
+     }
+    p{
+        font-size: 8px;
+     }
+     img{
+         width: 130px;
+         height: 130px;
+     }
