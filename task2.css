@@ -1,0 +1,44 @@
+    #search
+    {
+        background-color: black ;
+        background-image: url(./屏幕截图1.jpg) no-repeat;
+        height:58px;
+         width: 100%;
+    }
+
+    .search1
+    {
+        display: flex;
+        float: right;
+        width: 400px;
+        color: aliceblue;
+    }
+
+    #content1
+    {
+        border :1px solid #cdcdcd;
+        margin: 100px;
+        background-color: #ffffff;
+        width: 1552px;
+        height: 834px;
+    }
+
+    p{
+        text-indent: 2em;
+
+    }
+
+    body
+    {
+        background-color: #dedede;
+    }
+
+    li
+    {
+        list-style: none;
+    }
+
+    .content3 div
+    {
+        text-indent: 2em;
+    }
