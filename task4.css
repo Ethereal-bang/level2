@@ -1,0 +1,28 @@
+#box{
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    position: relative;
+}
+html,body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box div{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+.one{
+    border-radius: 0 0 100% 0;
+    background-color: yellow;
+}
+.two{
+    border-radius: 1000% 0 0 0;
+    background-color: yellow;
+    right: 0;
+    bottom: 0;
+}
