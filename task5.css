@@ -1,0 +1,138 @@
+.aside{
+    position: relative;
+}
+.asides{
+     position: absolute;
+     bottom: 100px;
+        
+ }
+p{
+    font-size: 14px;
+    line-height: 1.5em;
+ }
+ img{
+     width: 240px;
+     height: 200px;
+ }
+ body{
+     margin: 0%;
+     padding: 0%;
+ }
+ body{
+     background-color: darkgray;
+     width: 100%;
+ }
+ #section1{
+    background-color: white;
+    padding: 25px;
+    margin: 25px;
+ }
+ #section2{
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+
+ }
+ nav{
+     background-image: url(./nav.png);
+     margin: 0%;
+     float: left;
+     width: 100%;
+     height: 80px;
+ }
+ nav ul{
+     list-style: none;
+     float: right;
+ }
+ #section2 ul{
+     margin: 0%;
+     padding-left: 20px;
+ }
+ nav ul li{
+     display: inline;
+ }
+ #section3{
+    margin: 25px; 
+    padding: 25px;
+    background-color: white;
+
+ }
+.group p{
+     width: 120px;
+     margin: 0px 0px 8px 0px;
+     text-align: center;
+ }
+ .group img{
+    width: 120px;
+    height: 100px;
+ }
+.group{
+    display: inline-block;
+    border:1px solid black;
+    margin:15px ;
+    padding:12px;
+ }
+ #section4{
+     margin: 25px;
+     padding: 25px;
+     background-color: white;
+ }
+ table{
+     text-align: left;
+     width: 100%;
+ }
+ td{
+     font-weight: bold;
+ }
+ th{
+     color: white;
+     background-color: black;
+}
+#sum{
+    background-color: lightgrey;
+}
+#content{
+    margin-right:420px ;
+}
+#aside{
+    width: 320px;
+    margin: 25px;
+    padding: 25px;
+    background-color: white;
+    float: right;
+    
+}
+.tip{
+    font-size: x-small;
+    color: lightslategray;
+    padding-left: 124px;
+    margin-bottom: 20px;
+    
+}
+#email{
+    margin-bottom:10px ;
+}
+#password{
+    margin: 20px 30px 10px ;
+}
+#password2{
+    margin-bottom: 10px;
+}
+.two{
+    margin: 0 0 10px 76px;
+}
+.two{
+    display: inline-block;
+}
+.four{
+    margin-left:40px;
+    display: inline-flex;
+    align-items: baseline;
+}
+#submit{
+    display: block;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
