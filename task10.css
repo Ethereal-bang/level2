@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+
+}
+.box1,.box2,.box3{
+    border: 1px solid #f00;
+    width: 150px;
+}
+.box1{
+    height: 120px;
+}
+.box2{
+    height: 100px;
+}
+.box3{
+    height: 40px;
+}
+.box4{
+    border: 1px solid #0f0;
+    width: 200px;
+    height: 200px;
+    order: -1;
+}
+@media only screen and (min-width: 640px){
+    .box4{
+        order: 4;
+    }
+}
