@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #6b6b6b;
+}
+html,body{
+    width: 100%;
+}
+header{
+    background-color:#92d6dd;
+    height: 10%;
+}
+#header_1{
+    height: 100%;
+     display: flex;
+    align-items: center;
+}
+#tri{
+    width: 0;
+    height: 0;
+    margin: 0 16px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #ffffff;
+}
+#header_1>a:link, #header_1>a:visited{
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 170px;
+    
+}
+#header_1>span{
+    color: #ffffff;
+    font-weight: 800;
+}
+#nav{
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    list-style: none;
+}
+#nav>li{
+    width: 20%;     /*五个导航块均匀分布*/
+    height: 100%;
+    float: left;    /*水平显示*/
+}
+#nav a{
+    display: inline-block;   /*行内元素无法设置宽高，背景图片设置也需为块状*/ 
+    width: 100%;
+    height: 100%;
+    text-indent: 40px;  /*文字缩进*/
+    line-height: 50px;  /*等于行高时垂直居中*/
+    font-weight: 800;
+}
+#nav a:link, #nav a:visited{
+    color: #6e6e6e;
+    text-decoration: none;
+}
+#nav a:visited, #nav a:hover{
+    background-image: url(./img1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#home-page>img{
+    width: 100%;
+    height: 300px;
+}
+.box_one{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-around;
+}
+.box_two>img{
+    margin: 10px 0;
+}
+.box_two>p{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.line{
+    width: 440px;
+    height: 2px;
+    margin: 0 auto 14px;
+    background-color: #eaded9;
+}
+.line_v{
+    width: 2px;
+    height: 155px;
+    margin-top: 10px;
+    background-color: #eaded9;
+}
+.box_one>.box_two>.p_one{
+    margin: 0px;
+}
+.line_bold{
+    width: 100%;
+    height: 14px;
+    margin-top: 10px;
+    background-color: #eaded9;
+}
+.box_three{
+    padding-top: 10px;
+}
+.box_three>p{
+    font-size: 18px;
+    text-indent: 12px;
+}
+.box_four{
+    padding: 0 12px;
+    display: flex;
+}
+.box_five{
+    width: 300px;
+    height: 80px;
+    float: right;
+    padding-right: 20px;
+}
+.box_five>p{
+    display: inline-block;
+    width: 45%;
+    height: 45%;
+    margin: 6px 4px;
+    background-color: #f9f9f9;
+    color: #484848;
+    text-align: center;
+    padding-top: 7px;
+}
+.box_six>img{
+    margin: 10px 8px 10px 10px;
+    float: left;
+}
+.box_six>p{
+    clear: both;
+    font-size: 22px;
+    display: inline-block;
+    width: 70%;
+    height: 11%;
+    margin-top: 1.5%;
+}
+.box_six>p>span{
+    font-size: 14px;
+}
+.line_bottom{
+   
+    background-color: #eaded9;
+}
